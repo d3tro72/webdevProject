@@ -1,39 +1,16 @@
 body{
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: white;
+    background-color:#f8f9fa;
 }
 
-.navbar{
-    background-color: #000000 !important;
+h1{
+    color:#0A1931;
+    margin-bottom:20px;
 }
 
-.hero{
-    min-height: 70vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
+.card{
+    transition:0.3s;
 }
 
-.hero h1{
-    color:#00A8FF;
-    font-size:3rem;
-}
-
-.btn-primary{
-    background-color:#00A8FF;
-    border:none;
-}
-
-.btn-primary:hover{
-    background-color:#0088cc;
-}
-
-footer{
-    background-color:#000;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:50px;
+.card:hover{
+    transform:translateY(-5px);
 }
