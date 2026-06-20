@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.navbar{
+    background-color: #000000 !important;
+}
+
+.hero{
+    min-height: 70vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero h1{
+    color:#00A8FF;
+    font-size:3rem;
+}
+
+.btn-primary{
+    background-color:#00A8FF;
+    border:none;
+}
+
+.btn-primary:hover{
+    background-color:#0088cc;
+}
+
+footer{
+    background-color:#000;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
