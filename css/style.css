@@ -38,3 +38,26 @@ h1{
 .dark-mode p{
     color:white;
 }
+
+.card{
+    border-radius:15px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn{
+    border-radius:30px;
+    padding:10px 20px;
+}
+
+img{
+    border-radius:15px;
+}
+
+.container{
+    margin-bottom:40px;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    transition:0.3s;
+}
