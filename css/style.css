@@ -15,3 +15,26 @@ h1{
 .card:hover{
     transform:translateY(-5px);
 }
+
+.dark-mode{
+    background-color:#212529;
+    color:white;
+}
+
+.dark-mode .card{
+    background-color:#343a40;
+    color:white;
+}
+
+.dark-mode footer{
+    background-color:black !important;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode p{
+    color:white;
+}

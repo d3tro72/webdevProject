@@ -26,3 +26,15 @@ e.preventDefault();
 }
 
 });
+
+const darkModeBtn = document.getElementById("darkModeBtn");
+
+if (darkModeBtn) {
+
+    darkModeBtn.addEventListener("click", function () {
+
+        document.body.classList.toggle("dark-mode");
+
+    });
+
+}
